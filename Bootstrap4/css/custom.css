@@ -1,0 +1,179 @@
+nav h1{
+  font-family: "Bree Serif", serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #2f281e;
+}
+.btn-primary {
+  background: #ff9900;
+  border: 0px;
+  padding: 15px 40px 15px 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background: #d48206;
+  border: 0px;
+}
+
+.btn-secondary {
+  background: none;
+  border: 1px solid #bcd0e5;
+  padding: 15px 40px 15px 40px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #173a56;
+}
+
+.btn-secondary:hover {
+  background: none;
+  border: 1px solid rgb(159, 177, 197);
+  color: #173a56;
+}
+.bg2 {
+  width: 1000px;
+  height: auto;
+}
+.food2 h1 {
+  font-family: "Lobster", cursive;
+  font-weight: 900;
+  font-size: 60px;
+  color: #2f281e;
+}
+.food2 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #2f281e;
+  font-style: bold;
+  text-align: justify;
+}
+.food2 {
+  background-image: url(images/2.png);
+}
+.food2 p .mb-4 {
+  font-size: 900px;
+}
+.food2 img {
+  width: 550px;
+}
+.ractangle {
+  margin-left: 100px;
+  height: 150px;
+  width: 350px;
+}
+
+.food2 {
+  margin-top: 200px;
+}
+
+.food2 .btn {
+  margin-left: 100px;
+}
+
+.food3 h1 {
+  font-family: "Bree Serif", serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #2f281e;
+  text-align: center;
+}
+
+.navbar-nav .nav-link {
+  color: #2f281e;
+}
+
+.food3 img {
+  width: 500px;
+}
+
+.food3 .ractangle {
+  margin-top: 100px;
+}
+
+.food3 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #2f281e;
+  font-style: bold;
+  text-align: justify;
+}
+
+.bg-2 img {
+  width: 1100px;
+}
+
+.bg-1 img {
+  margin-top: 50px;
+  width: 1100px;
+  position: absolute;
+}
+
+.bg-4 img {
+  margin-top: 150px;
+  width: 1000px;
+  position: absolute;
+  padding-left: 0;
+}
+
+.food4 {
+  margin-top: 50px;
+
+}
+
+.food4 h1 {
+  font-family: "Bree Serif", serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #2f281e;
+  text-align: center;
+}
+
+.food4 img {
+  width: 300px;
+}
+
+.food4 .ractangle {
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 230px;
+  height: auto;
+  -webkit-box-shadow: 14px 17px 26px -6px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 14px 17px 26px -6px rgba(0, 0, 0, 0.38);
+  box-shadow: 14px 17px 26px -6px rgba(0, 0, 0, 0.38);
+}
+
+footer{
+  margin-top: 150px;
+  background-color: #F0F0F0;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+footer h1{
+  font-family: "Bree Serif", serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #2f281e;
+}
+
+footer p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #2f281e;
+  font-style: bold;
+  text-align: justify;
+}
+
+footer i{
+  padding-right: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .btn-primary,
+  .btn-secondary {
+    margin-top: 10px;
+    margin-left: 0 !important;
+  }
+}
