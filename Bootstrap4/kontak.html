@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/custom2.css " />
+    <link rel="stylesheet" href="css/kontak.css " />
     <link
       href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lobster&display=swap"
       rel="stylesheet"
     />
+    <title>Contact Us</title>
   </head>
+
   <body>
     <nav class="navbar pt-4 navbar-expand-lg navbar-light">
       <div class="container">
@@ -55,30 +62,84 @@
         </div>
       </div>
     </nav>
+
     <main>
-      <section class="food1">
-        <div class="container">
-          <div class="row">
-            <div class="col-11 d-none d-sm-block">
-              <img width="1020" src="images/page2.png" alt="" srcset="" />
-            </div>
+      <div class="container1">
+        <h1 class="text-center">CONTACT US</h1>
+        <div class="row border">
+          <div class="ktk-bdy-satu text-left p-4">
+            <b>HEAD OFFICE</b> <br />
+            Universitas Amikom Yogyakarta <br />
+            Gedung 1 Lantai 1 <br />
+            Jalan Ring Road Utara No 200 <br />
+            Yogyakarta
+          </div>
+          <div class="ktk-bdy-dua text-right p-4 mt-3">
+            Contact Center (088858885023) <br />
+            Email : Brocalli@gmail.com <br />
+            Instagram : brocallifood <br />
+            Facebook : brocallifood <br />
           </div>
         </div>
-      </section>
-      <section>
-        <div class="container">
-          <div class="row">
-            <div class="col-1"></div>
-            <div class="col-10">
-              <div class="search_box">
-                <input type="text" placeholder="what are you looking for?" />
-                <i class="fas fa-search"></i>
+        <div class="ktk-footer">
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-toggle="modal"
+            data-target="#teleponmodal"
+          >
+            HELP
+          </button>
+          <div
+            class="modal fade"
+            id="teleponmodal"
+            role="dialog"
+            aria-labelledby="modallabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Contact Us</h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form action="">
+                    <div class="form-group">
+                      <label>Name</label>
+                      <input type="text" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                      <label>E-mail/No Telephone</label>
+                      <input type="email" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                      <label>Suggestion</label>
+                      <textarea
+                        name=""
+                        id=""
+                        class="form-control"
+                        rows="5"
+                      ></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="submit" class="btn btn-primary">SUBMIT</button>
+                  <button type="reset" class="btn btn-danger">RESET</button>
+                </div>
               </div>
             </div>
-            <div class="col-1"></div>
           </div>
         </div>
-      </section>
+      </div>
     </main>
     <footer>
       <div class="container">

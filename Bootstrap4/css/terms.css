@@ -1,0 +1,93 @@
+nav h1 {
+  font-family: "Bree Serif", serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #2f281e;
+}
+.btn-primary {
+  background: #ff9900;
+  border: 0px;
+  padding: 15px 40px 15px 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background: #d48206;
+  border: 0px;
+}
+
+.btn-secondary {
+  background: none;
+  border: 1px solid #bcd0e5;
+  padding: 15px 40px 15px 40px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #173a56;
+}
+
+.btn-secondary:hover {
+  background: none;
+  border: 1px solid rgb(159, 177, 197);
+  color: #173a56;
+}
+
+ .container1 .KOTAK-BODY {
+     height: 700px;
+     margin-left: 5px;
+     margin-right: 5px;
+     
+ }
+
+ footer{
+    margin-top: 150px;
+    background-color: #F0F0F0;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  footer h1{
+    font-family: "Bree Serif", serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #2f281e;
+  }
+  
+  footer p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #2f281e;
+    font-style: bold;
+    text-align: justify;
+  }
+  
+  footer i{
+    padding-right: 30px;
+  }
+
+@media (min-width: 992px){
+    .btn-primary,
+    .btn-secondary {
+        margin-top: 10px;
+        margin-left: 0 !important;
+    }  
+    .container1 .KOTAK-BODY {
+        height: 400px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }  
+}
+
+footer a{
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #2f281e;
+  font-style: bold;
+  text-align: justify;
+}
+
+footer .pd{
+  padding-left: 100px;
+}

@@ -1,4 +1,4 @@
-nav h1 {
+nav h1{
   font-family: "Bree Serif", serif;
   font-weight: 700;
   font-size: 50px;
@@ -32,24 +32,34 @@ nav h1 {
   color: #173a56;
 }
 
-.food1 img {
-  padding-left: 50px;
-  width: 1000px;
-}
-footer {
+.container1 .row .ktk-bdy-satu {
+    height: 200px;
+    margin-left: 250px;
+ }
+ 
+ .container1 .row .ktk-bdy-dua{
+     height: 200px;
+     margin-left: 200px;
+ }
+ 
+ .container1 .ktk-footer{
+     margin-left: 600px;
+ }
+
+ footer{
   margin-top: 150px;
-  background-color: #f0f0f0;
+  background-color: #F0F0F0;
   padding-top: 60px;
   padding-bottom: 80px;
 }
-footer h1 {
+footer h1{
   font-family: "Bree Serif", serif;
   font-weight: 700;
   font-size: 50px;
   color: #2f281e;
 }
 
-footer p {
+footer p{
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -58,51 +68,30 @@ footer p {
   text-align: justify;
 }
 
-footer i {
+footer i{
   padding-right: 30px;
 }
+@media only screen and (max-width: 768px) {
+  .btn-primary,
+  .btn-secondary {
+    margin-top: 10px;
+    margin-left: 0 !important;
+  }   
+  .container1 .row .ktk-bdy-satu {
+    height: 200px;
+    margin-left: 250px;
+  }
 
-.search_box {
-  width: 100%;
-  position: relative;
+  .container1 .row .ktk-bdy-dua{
+    height: 200px;
+    margin-left: 200px;
+  }
+
+  .container1 .ktk-footer{
+    margin-left: 500px;
+  }
 }
 
-.search_box input[type="text"] {
-  padding: 0 100px 0 100px;
-  background-color: #f0f0f0;
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
-  border: 2px solid #fff;
-  border-radius: 10px;
-  font-size: 18px;
-  color: #2f281e;
-  font-family: "Poppins", sans-serif;
-  outline: none;
-}
-
-::-webkit-input-placeholder {
-  color: #2f281e;
-}
-
-::-moz-placeholder {
-  color: #2f281e;
-}
-
-::-ms-placeholder {
-  color: #2f281e;
-}
-
-.fa-search {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 30px;
-  color: #2f281e;
-  font-size: 25px;
-  padding-right: 0;
-  
-}
 footer a{
   text-decoration: none;
   font-family: "Poppins", sans-serif;

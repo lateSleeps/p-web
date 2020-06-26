@@ -168,6 +168,20 @@ footer p{
   text-align: justify;
 }
 
+footer a{
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #2f281e;
+  font-style: bold;
+  text-align: justify;
+}
+
+footer .pd{
+  padding-left: 100px;
+}
+
 footer i{
   padding-right: 30px;
 }
