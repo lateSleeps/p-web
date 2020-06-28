@@ -1,4 +1,4 @@
-nav h1{
+nav h1 {
   font-family: "Bree Serif", serif;
   font-weight: 700;
   font-size: 50px;
@@ -84,6 +84,9 @@ nav h1{
   color: #2f281e;
 }
 
+.food3{
+  margin-bottom: 0;
+}
 .food3 img {
   width: 500px;
 }
@@ -103,6 +106,7 @@ nav h1{
 
 .bg-2 img {
   width: 1100px;
+  position: absolute;
 }
 
 .bg-1 img {
@@ -120,7 +124,6 @@ nav h1{
 
 .food4 {
   margin-top: 50px;
-
 }
 
 .food4 h1 {
@@ -129,6 +132,7 @@ nav h1{
   font-size: 50px;
   color: #2f281e;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .food4 img {
@@ -140,26 +144,26 @@ nav h1{
   margin-top: 20px;
   width: 230px;
   height: auto;
-  background-color:white;
+  background-color: white;
   -webkit-box-shadow: 14px 17px 26px -6px rgba(0, 0, 0, 0.38);
   -moz-box-shadow: 14px 17px 26px -6px rgba(0, 0, 0, 0.38);
   box-shadow: 14px 17px 26px -6px rgba(0, 0, 0, 0.38);
 }
 
-footer{
+footer {
   margin-top: 150px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   padding-top: 60px;
   padding-bottom: 80px;
 }
-footer h1{
+footer h1 {
   font-family: "Bree Serif", serif;
   font-weight: 700;
   font-size: 50px;
   color: #2f281e;
 }
 
-footer p{
+footer p {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -168,7 +172,7 @@ footer p{
   text-align: justify;
 }
 
-footer a{
+footer a {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -178,11 +182,11 @@ footer a{
   text-align: justify;
 }
 
-footer .pd{
+footer .pd {
   padding-left: 100px;
 }
 
-footer i{
+footer i {
   padding-right: 30px;
 }
 @media only screen and (max-width: 768px) {
@@ -193,3 +197,84 @@ footer i{
   }
 }
 
+.card {
+  
+  height: 200px;
+  width: 200px;
+  background-color: transparent;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  margin-top: 300px;
+  border: none;
+  -webkit-box-shadow: 7px 5px 31px -9px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: 7px 5px 31px -9px rgba(0, 0, 0, 0.39);
+  box-shadow: 7px 5px 31px -9px rgba(0, 0, 0, 0.39);
+}
+
+.card img {
+  width: 211px;
+  height: 200px;
+  object-fit: cover;
+  padding: none;
+  border-radius: 10px;
+}
+
+.cards1{
+  margin-bottom: 50px;
+}
+.cards1 p{
+  font-family: "Bree Serif", serif;
+  font-size: 20px;
+}
+
+
+
+.cardR {
+  margin-top: 80px;
+  padding: none;
+  height: 170px;
+  width: 170px;
+  background-color: whitesmoke;
+   margin-left: 30px;
+  margin-bottom: 40px;
+  border: none;
+  -webkit-box-shadow: 7px 5px 31px -9px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: 7px 5px 31px -9px rgba(0, 0, 0, 0.39);
+  box-shadow: 7px 5px 31px -9px rgba(0, 0, 0, 0.39);
+}
+
+.cardR img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  padding:none;
+  border-radius: 10px;
+;
+
+}
+
+.cardR2{
+  width: 170px;
+  height: 30px;
+  background-color: #fff;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  
+}
+
+.cardR h6{
+  float: right;
+  margin-bottom: 5px;
+  color: #A9C54C;
+}
+
+.fa-arrow-right{
+  color: #DE7174;
+}
+
+.next{
+  margin-top: 30px;
+  font-family: "Bree Serif", serif;
+  font-size: 20px;
+}

@@ -65,6 +65,7 @@ footer i {
 .search_box {
   width: 100%;
   position: relative;
+  margin-bottom: 100px;
 }
 
 .search_box input[type="text"] {
@@ -101,9 +102,8 @@ footer i {
   color: #2f281e;
   font-size: 25px;
   padding-right: 0;
-  
 }
-footer a{
+footer a {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -113,6 +113,49 @@ footer a{
   text-align: justify;
 }
 
-footer .pd{
+footer .pd {
   padding-left: 100px;
+}
+
+.card {
+  padding: none;
+  height: 250px;
+  width: 200px;
+  background-color: transparent;
+   margin-left: 30px;
+  margin-bottom: 40px;
+  border: none;
+  -webkit-box-shadow: 7px 5px 31px -9px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: 7px 5px 31px -9px rgba(0, 0, 0, 0.39);
+  box-shadow: 7px 5px 31px -9px rgba(0, 0, 0, 0.39);
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  padding:none;
+  border-radius: 10px;
+;
+
+}
+
+.card2{
+  width: 200px;
+  height: 30px;
+  background-color: #fff;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  
+}
+
+.card h6{
+  float: right;
+  margin-bottom: 5px;
+  color: #A9C54C;
+}
+
+.fa-arrow-right{
+  color: #DE7174;
 }

@@ -65,6 +65,7 @@ nav h1 {
   .search_box {
     width: 100%;
     position: relative;
+    margin-bottom: 100px;
   }
   
   .search_box input[type="text"] {
@@ -115,4 +116,28 @@ nav h1 {
   
   footer .pd{
     padding-left: 100px;
+  }
+
+
+
+  .card {
+    padding: none;
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+     margin-left: 30px;
+    margin-bottom: 40px;
+    border: none;
+    -webkit-box-shadow: 7px 5px 31px -9px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 7px 5px 31px -9px rgba(0, 0, 0, 0.39);
+    box-shadow: 7px 5px 31px -9px rgba(0, 0, 0, 0.39);
+  }
+  
+  .card img {
+    width: 211px;
+    height: 200px;
+    object-fit: cover;
+    padding:none;
+    border-radius: 10px;
+    
   }
