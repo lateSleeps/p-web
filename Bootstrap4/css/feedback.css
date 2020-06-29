@@ -1,0 +1,143 @@
+nav h1 {
+    font-family: "Bree Serif", serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #2f281e;
+  }
+  .btn-primary {
+    background: #ff9900;
+    border: 0px;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .btn-primary:hover {
+    background: #d48206;
+    border: 0px;
+  }
+  
+  .btn-secondary {
+    background: none;
+    border: 1px solid #bcd0e5;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #173a56;
+  }
+  
+  .btn-secondary:hover {
+    background: none;
+    border: 1px solid rgb(159, 177, 197);
+    color: #173a56;
+  }
+  
+/* 
+css edit  bagus indra */
+#formKomentar{
+    margin-top: 100px;
+    background-color: darkgray;
+    border: 5px solid #d1d1d1;
+    width: 800px;
+    padding:60px;
+}
+
+a[class]
+{
+    font-size: 20px;
+}
+hr[name="garis"]
+{
+    width: 70%;
+    height: 20px;
+    border-color: darkslategrey;
+}
+input[type="text"]
+{
+    width: 300px;
+    height: 40px;
+    margin-right : 20px;
+    
+}
+input[name="email"]
+{
+width: 500px;
+}
+input[name="comment"]
+    {
+width: 200px;
+}
+
+input, textarea{
+    padding: 10px;
+    border:3px solid #e6e6e6;
+    border-radius: 5px;
+    margin-bottom: 15px; 
+}
+input:focus, textarea:focus{
+    border:1px solid #5E4F4F;
+}
+ 
+textarea{
+    width:600px;
+}
+input[type="submit"]{
+    cursor: pointer;
+    background: -webkit-linear-gradient(top, #efefef, #ddd);
+    background: -moz-linear-gradient(top, #efefef, #ddd);
+    background: -ms-linear-gradient(top, #efefef, #ddd);
+    background: -o-linear-gradient(top, #efefef, #ddd);
+    background: linear-gradient(top, #efefef, #ddd);
+    color: #333;
+    text-shadow: 0px 1px 1px rgba(255,255,255,1);
+    border: 3px solid #ccc;
+}
+
+input[type="submit"]:hover {
+    background: -webkit-linear-gradient(top, #eee, #ccc);
+    background: -moz-linear-gradient(top, #eee, #ccc);
+    background: -ms-linear-gradient(top, #eee, #ccc);
+    background: -o-linear-gradient(top, #eee, #ccc);
+    background: linear-gradient(top, #eee, #ccc);
+    border: 3px solid #bbb;
+}
+
+footer {
+    margin-top: 150px;
+    background-color: #f0f0f0;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  footer h1 {
+    font-family: "Bree Serif", serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #2f281e;
+  }
+  
+  footer p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #2f281e;
+    font-style: bold;
+    text-align: justify;
+  }
+  
+  footer i {
+    padding-right: 30px;
+  }
+
+  footer a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #2f281e;
+    font-style: bold;
+    text-align: justify;
+  }
+  
+  footer .pd {
+    padding-left: 100px;
+  }
