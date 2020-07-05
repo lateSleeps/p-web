@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/custom2 copy.css " />
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lobster&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="navbar pt-4 navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <h1>BROCALLI</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active align-self-center">
+            <a class="nav-link" href="index3.html">Ingredients <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item align-self-center">
+            <a class="nav-link" href="index2.html">Recipes</a>
+          </li>
+          <li class="nav-item align-self-center">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item align-self-center">
+            <a class="nav-link" href="#">Menu Items</a>
+          </li>
+          <a class="btn-sm px-4 btn-secondary ml-5" href="#" rule="button">Sign In</a>
+          <a class="btn-sm px-4 btn-primary ml-2" href="#" rule="button">Sign Up</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section class="food1">
+      <div class="container">
+        <div class="row">
+          <div class="col-11 d-none d-sm-block">
+            <img width="1020" src="images/page2.png" alt="" srcset="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col-10">
+            <div class="search_box">
+              <input type="text" placeholder="what are you looking for?" />
+              <i class="fas fa-search"></i>
+            </div>
+          </div>
+          <div class="col-1"></div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <!-- ini bagian yang dirubah -->
+      <div class="container">
+        <div class="row row-cols-4">
+          <div class="col">
+            <div class="card">
+              <img src="${data.Picture}" alt="logo" />
+              <div class="card2">
+                <h5>${data.Name}</h5>
+              </div>
+              <div class="card2">
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#staticBackdrop">
+                  <h6>recips <i class="fas fa-arrow-right"></i></h6>
+                </button>
+                <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h4>Recips</h4>
+                      <p>haha</p>
+                      <hr>
+                      <h4>Steps</h4>
+                      <p>hihi</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="${data.Picture}" alt="logo" />
+              <div class="card2">
+                <h5>${data.Name}</h5>
+              </div>
+              <div class="card2">
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#staticBackdrop">
+                  <h6>recips <i class="fas fa-arrow-right"></i></h6>
+                </button>
+                <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h4>Recips</h4>
+                      <p>haha</p>
+                      <hr>
+                      <h4>Steps</h4>
+                      <p>hihi</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="${data.Picture}" alt="logo" />
+              <div class="card2">
+                <h5>${data.Name}</h5>
+              </div>
+              <div class="card2">
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#staticBackdrop">
+                  <h6>recips <i class="fas fa-arrow-right"></i></h6>
+                </button>
+                <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h4>Recips</h4>
+                      <p>haha</p>
+                      <hr>
+                      <h4>Steps</h4>
+                      <p>hihi</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="${data.Picture}" alt="logo" />
+              <div class="card2">
+                <h5>${data.Name}</h5>
+              </div>
+              <div class="card2">
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#staticBackdrop">
+                  <h6>recips <i class="fas fa-arrow-right"></i></h6>
+                </button>
+                <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h4>Recips</h4>
+                      <p>haha</p>
+                      <hr>
+                      <h4>Steps</h4>
+                      <p>hihi</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- sampe sini -->
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <h1>BROCALLI</h1>
+        </div>
+        <div class="col-9"></div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <p>Copyright &copy; 2020 LateSleeps</p>
+        </div>
+        <div class="col">
+          <a class="text-right" href="about.html">About</a>
+        </div>
+        <div class="col-2">
+          <a class="text-right pl-5" href="kontak.html">Contact Us</a>
+        </div>
+        <div class="col-3">
+          <a class="text-right pl-5" href="terms of servis.html">Terms Of Services</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6"></div>
+        <a class="text-center pl-3" href="feedback.html">Feedback</a>
+        <a class="text-center pl-5" href="profile.html">Profile</a>
+        <div class="col-3">
+          <p class="text-right">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter pr-5"></i>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/05cc4aaa6a.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/custom2.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+
+</html>
